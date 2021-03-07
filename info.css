@@ -1,0 +1,293 @@
+.intro {
+  width: 100%;
+  height: 100%;
+  position: relative; 
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  text-align: center;
+    background-size: cover;
+}
+
+
+.intro-slideshow img {
+  position: absolute;
+  left: 0%;
+  top: -3%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.75s ease-in-out;
+    background-size: cover;
+
+} 
+
+
+body, html{
+
+  background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+    
+     
+
+}
+
+
+
+.szoveg{
+  top: 10%;
+  right: 12.2%;
+  width: 100%;
+  max-width: 26.041666666666668vw;
+  position: absolute;
+  word-wrap: break-word;
+  font-weight: bolder;
+  color: white;
+  font-size: 2.7vw;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+
+}
+
+
+
+
+
+ul li a .fa
+{
+  position: absolute;
+  top: 78%;
+  left: 42%;
+  font-size: 2.5vw;
+  transition: 0.5s;
+   list-style: none;
+  z-index: 1;
+}
+
+.bazdmeg
+{
+  list-style: none;
+  font-size: 40;
+  outline-color: none;
+  position: relative;
+  top: 3%;
+  left: 5%;
+  position: fixed;
+  z-index: 1;
+
+
+}
+
+ul li i {
+  color: white;
+}
+
+#footer-wrapper {
+   
+    background: url() repeat-x scroll 0 0;
+    overflow: hidden;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keret {
+
+  display: box;
+  position: absolute;
+  width: 28%;
+  height: 58%;
+  padding: 2.6041666666666665vw;
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 5px 20px rgba(0,0,0,.5);
+  top: 20%;
+  left: 14%;
+  text-align: justify;
+  color: black;
+  z-index: 1;
+  
+}
+
+
+img{
+  position: absolute;
+  top: 50%;
+  left: 39%;
+  width: 22%;
+  height: 22%;
+}
+
+ul li a .fa:hover{
+      transform: scale(1.2);
+}
+
+.terkep {
+
+  position: absolute;
+  top: 48.2%;
+  left: 15.6%;
+  width: 30vw;
+  height: 20vh;
+  z-index: 1;
+
+}
+
+
+.cim{
+  position: absolute;
+  top: 11%;
+  left: 34%;
+  font-weight: bolder;
+  font-size: 5vw;
+  z-index: 1;
+  color: green;
+  text-shadow: 2px 2px 2px #fff;
+}
+
+
+.email{
+
+  top: 28%;
+  right: 3%;
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  word-wrap: break-word;
+  font-weight: bolder;
+  color: white;
+  font-size: 2.5vw;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+
+
+}
+
+
+.iranyito{
+
+    position: absolute;
+    top: 75%;
+    left: 12%;
+    font-weight: bolder;
+    font-size: 2.5vw;
+    color: white;
+    z-index: 1;
+    max-width: 62%;
+    text-shadow: 5px 5px 5px black;
+    word-wrap: break-word;
+
+
+
+}
+
+.keret1 {
+
+  display: box;
+  position: absolute;
+  width: 40%;
+  height: 50%;
+  padding: 25px;
+  background: rgba(255,255,255,.2);
+  box-shadow: 20px 20px 20px rgba(0,0,0,.5);
+  top: 20%;
+  right: 5%;
+  text-align: justify;
+  color: black;
+  z-index: 1;
+  
+}
+
+.szoveg1{
+
+  top: 5%;
+  right: 10%;
+  width: 100%;
+  max-width: 500px;
+  position: absolute;
+  word-wrap: break-word;
+  font-weight: bolder;
+  color: white;
+  font-size: 2.5vw;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+
+}
+
+
+.hetfo{
+  position: absolute;
+  top: 20%;
+  left: 7%;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 5px 2px black;
+  font-size: 2.5vw;
+}
+
+.hetfo1{
+  position: absolute;
+  top: 45%;
+  left: 7%;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 5px 2px black;
+  font-size: 2.5vw;
+}
+
+.hetfo2{
+  position: absolute;
+  top: 70%;
+  left: 7%;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 5px 2px black;
+  font-size: 2.5vw;
+}
+
+.hetfo3{
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 5px 2px black;
+  font-size: 2vw;
+}
+
+.hetfo4{
+  position: absolute;
+  top: 60%;
+  left: 7%;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 5px 2px black;
+  font-size: 2vw;
+}
+
+.hetfo5{
+  position: absolute;
+  top: 70%;
+  left: 7%;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 5px 2px black;
+  font-size: 2vw;
+}
+
+.hetfo6{
+  position: absolute;
+  top: 80%;
+  left: 7%;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 5px 2px black;
+  font-size: 2vw;
+}
+

@@ -1,0 +1,44 @@
+<div class="keret">
+<p class="szoveg">  Fix: 021-842-577 
+					Mob: 063-88-26-007
+</p>
+<p class="email"> kokaikert@gmail.com </p>
+<p class="iranyito">21235 TEMERIN
+					Novosadska 470
+</p>
+
+</div>
+
+</div>
+
+<div class="keret1">
+<p class="szoveg1">Nyitvatartás Ősszel </p>
+					<p class="hetfo"> Hétfő:   08:00-17:00</p>
+					<p class="hetfo1"> Kedd:   08:00-17:00 </p>
+					<p class="hetfo2"> Szerda:  08:00-17:00 </p>
+					<p class="hetfo3"> Csütörtök: 08:00-17:00 </p>
+					<p class="hetfo4"> Péntek:   08:00-17:00 </p>
+					<p class="hetfo5"> Szombat:   08:00-17:00 </p>
+          <p class="hetfo6"> Vasárnap:   09:00-12:00 </p>
+          <p class="hetfo7"> Vasárnap megbeszélés szerint </p>
+					
+</div>
+
+
+
+
+<div class="keret3">
+<p class="szallitas">Nagyobb mennyiségű vásárlás eséten megyegyezés szerint árkedvezményt adunk, valamint házhoz szállítjuk. Gyümölcsfák rendelhetők gyorspostán keresztül is, megbeszélés szerint. </p>
+</div>
+
+<div class="keret5" style="display: none;"> 
+  <p class="szoveg500" style="display: none;">Nyitvatartás Tavasszal </p>
+					<p class="hetfo"> Hetfő:   08:00-18:00</p>
+					<p class="hetfo1"> Kedd:   08:00-18:00 </p>
+					<p class="hetfo2"> Szerda:  08:00-18:00 </p>
+					<p class="hetfo3"> Csütörtök: 08:00-18:00 </p>
+					<p class="hetfo4"> Péntek:   08:00-18:00 </p>
+					<p class="hetfo5"> Szombat:   08:00-18:00 </p>
+          <p class="hetfo6"> Vasárnap:   09:00-12:00 </p>
+          <p class="hetfo7"> Vasárnap megbeszélés szerint </p>
+</div>

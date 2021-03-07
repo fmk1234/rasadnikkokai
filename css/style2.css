@@ -1,0 +1,174 @@
+.textOverImage{
+    position: absolute;
+    width:300px;
+    height:300px;
+    float: left;
+    margin:4px;
+    background-size:140%;
+    background-position:center;
+    transition:0.5s;
+    z-index: 1;   
+  }
+  
+  .textOverImage:hover{
+    background-size:150%;
+  }
+  
+  .textOverImage:after{
+    position:absolute;
+    top:88%;
+    bottom:0;
+    left:0;
+    right:0;
+    white-space:pre-wrap;
+    overflow:hidden;
+    background-color:rgba(0,0,0,0.6);
+    color:#fff;
+    padding: 8px;
+    font-size: 20;
+    content:attr(data-text);
+    transition:0.5s;
+  }
+  
+  .textOverImage:hover:after{
+    top:0;
+    padding:8px;
+  }
+  
+  .textOverImage:first-line{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5px;
+  }
+
+
+
+body{
+ 	overflow-y: all;
+ 	
+ 	background-size: 100%;
+ 	height: 100%;
+  background-attachment: fixed;
+
+}
+
+.frame{
+	width: 450px;
+	height: 500px;
+	position: absolute;
+	top: 10%;
+	left: 6.5%;
+	z-index: 0;
+}
+
+
+.cim{
+	top: 13%;
+	left: 30%;
+	position: absolute;
+	font-size: 120;
+	font-weight: bolder;
+	font-family: 'Satisfy', cursive;
+  color: white;
+  text-shadow: 10px 5px 5px black;
+
+}
+
+.bazdmeg{
+	list-style: none;
+	font-size: 50;
+	outline-color: none;
+	position: relative;
+	top: 1%;
+  position: fixed;
+}
+
+ul li i {
+	color: white;
+}
+
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+}
+
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  25% {
+    transform: rotate(180deg);
+  }
+  
+  50% {
+    transform: rotate(180deg);
+  }
+  
+  75% {
+    transform: rotate(360deg);
+  }
+  
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes loader-inner {
+  0% {
+    height: 0%;
+  }
+  
+  25% {
+    height: 0%;
+  }
+  
+  50% {
+    height: 100%;
+  }
+  
+  75% {
+    height: 100%;
+  }
+  
+  100% {
+    height: 0%;
+  }
+}
+
+.szaro {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+
+ul li a .fa{
+
+  position: absolute;
+  transition: 0.5s;
+
+}
+
+ul li a .fa:hover{
+      transform: scale(1.15);
+}

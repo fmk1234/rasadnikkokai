@@ -1,0 +1,121 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.intro {
+    
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.intro-slideshow img {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  padding: 0;
+  
+  transition: opacity 0.75s ease-in-out;
+}
+
+
+body
+{
+  background: url();
+  font-family: sans-serif;
+  background-size: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-position: top: 0%;
+  margin: 0;
+  padding: 0;
+  bottom: auto;
+
+}
+
+.keret
+{
+  display: box;
+  position: relative;
+  width: 500px;
+  height: 600px;
+  padding: 50px;
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 5px 20px rgba(0,0,0,.5);
+  top: 200px;
+  left: 650px;
+  text-align: justify;
+  color: black;
+  z-index: 1;
+  
+}
+
+
+.szoveg{
+
+  width: 100%;
+  max-width: 500px;
+  position: absolute;
+  word-wrap: break-word;
+
+}
+
+
+
+
+
+ul li a .fa
+{
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  font-size: 40px;
+  
+  line-height: 80px;
+  transition: 0.5s;
+  padding-right: 14px;
+  list-style: none;
+  z-index: 1;
+}
+
+.bazdmeg
+{
+  list-style: none;
+  font-size: 50;
+  outline-color: none;
+  position: relative;
+  top: 1%;
+  left: 5%;
+  position: fixed;
+  z-index: 1;
+
+}
+
+ul li i {
+  color: black;
+}
+
+
+.hatter{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    display: flex;
+}
